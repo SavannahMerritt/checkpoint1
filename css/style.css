@@ -1,1 +1,62 @@
 /*CSS*/
+/*style.css*/
+/*stylesheet for Checkpoint One "index.html"*/
+
+/*Color Scheme: https://designschool.canva.com/blog/website-color-schemes/*/
+
+body {
+  background-color: #F4F4F4; /*Paper*/
+}
+
+.header {
+  background-color: #373737; /*Charcoal*/
+  color: #F4F4F4; /*Paper*/
+  width: 100%;
+  line-height: 60px;
+  justify-content: center;
+  display: flex;
+  font-size: 40px;
+  margin-top: 0px;
+}
+
+.nav ul {
+  background-color: #373737; /*Charcoal*/
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  font-size: 20px;
+  border-bottom: 20px;
+  border-bottom-color: #373737;
+  border-bottom-style: solid;
+}
+
+.nav li a {
+  display: block;
+  color: #F4F4F4; /*Paper*/
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  color: #C0B283; /*Pale Gold*/
+}
+
+.image {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.image .caption {
+  width: 306px;
+  margin: auto;
+  color: #373737;
+  font-size: 14px;
+}
+
+.main {
+  color: #373737;
+  width: 70%;
+  margin: auto;
+}
